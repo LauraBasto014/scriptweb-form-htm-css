@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #E0E0F8;
+	padding-top: 10%;
+}
+form{
+	padding: 30px 16px 0px 16px;
+	text-align: center;
+	width: 70%;
+	background-color: #0B0928;
+   
+	border-radius: 5%;
+	color: #fff;
+    height: 500px;
+}
+hr{
+	width: 99%;
+	height: 0.5%;
+  	background-color: white;
+}
+h1{
+	text-align: center;
+}
+.bots{
+	background-color: #394AAD;
+    border: none;
+    color: white;
+    padding: 13px 29px;
+    text-decoration: none;
+    margin: 30px 2px;
+    cursor: pointer;
+    font-family: Berlin Sans FB;
+    font-size: 16px;
+}
+input{
+	margin-top: 20px;
+	padding-top: 5px;
+
+}
+input[type=text],input[type=password]{
+	width: 80%;
+	height: 40px;
+}
+input[type=submit]{
+	width: 30%;
+	background-color: #394AAD;
+}
+input[type=reset]{
+	width: 20%;
+	background-color: #222;
+}
+label{
+	font-family: Berlin Sans FB;
+	font-size: 20px;
+	text-decoration: overline;
+}
+input{
+	background-color: #E0E0F8;
+}
+div{
+	padding-top: 15px;
+}
+/*Uso de media Querynns*/
+@media screen and (min-width: 260px) and (max-width: 700px){
+input[type=submit],input[type=reset]{
+	width: 70%;
+
+
+}
+input[type=reset]{
+	margin-top: -10px;
+}
+form{
+	height: inherit;
+}
+
+	
+} 

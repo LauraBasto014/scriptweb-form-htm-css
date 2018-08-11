@@ -1,0 +1,28 @@
+<?php
+include('views/templates/head.php')
+?>
+<body>
+	<form>
+			<h1>Motivo del mensaje</h1>
+		<p>
+			<select name="motivo" >
+				<option>Quejas</option>
+				<option>Sugerencias</option>
+				<option>Ayuda</option>
+				<option selected="selected">--Seleccionar--</option>
+			</select>
+		</p>
+		<p>
+			<input type="text" name="nombre" class="input_cont" placeholder="Nombre completo" />
+		</p>
+		<p>
+			<input type="text" name="email" class="input_cont" placeholder="Correo electrónico"/>
+		</p>
+		<p>
+			<textarea name="comentario" cols="80" rows="25" placeholder="Deja de tu mensaje"></textarea>
+		</p>
+		<p>
+			<input type="submit" value="Enviar mensaje" class="bots"/>
+  			<input type="reset" value="Limpiar" class="bots"/>
+  		</p>
+  	</form>

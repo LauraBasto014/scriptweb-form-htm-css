@@ -1,0 +1,60 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #E0E0F8;
+}
+h1{
+	font-family: Berlin Sans FB;
+	color: #0B0928;
+	font-size: 25px;
+}
+form{
+	text-align: center;
+	width: 100%;
+	background-color: #E0E0F8;
+    border-top-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: dotted;
+    border-color: #0B0928;
+    height: 793px;
+    padding: 14px 0px;
+}
+.input_cont{
+	border: 2px solid;
+	border-color: #0B0928;
+	font-family: Berlin Sans FB;
+	width:350px;
+	height: 30px;
+	margin-top: 25px;
+	border-left: 6px solid blue;
+    background-color: #E0E0F8;
+}
+textarea{
+	border: 2px solid;
+	border-color: #0B0928;
+	font-family: Berlin Sans FB;
+	margin-top: 48px;
+	background-color: #E0E0F8;
+}
+.bots{
+	background-color: #394AAD;
+    border: none;
+    color: white;
+    padding: 13px 29px;
+    text-decoration: none;
+    margin: 52px 2px;
+    cursor: pointer;
+    font-family: Berlin Sans FB;
+    font-size: 16px;
+}
+select{
+	margin-top: 25px;
+	padding: 7px 15px;
+	background-color:  #E0E0F8;
+	font-family: Berlin Sans FB;
+	font-size: 15px;
+}

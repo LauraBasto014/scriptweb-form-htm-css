@@ -1,0 +1,122 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #E0E0F8;
+	 font-family: Berlin Sans FB;
+
+}
+form{
+	text-align: left;
+	width: 60%;
+	background-color: #0B0928;
+	margin-top: 30px;
+	margin-left: 300px;
+    color: #fff;
+    border-radius: 5px;
+    height: 1400px;
+    padding: 20px 0px 0px 9px;
+}
+.input_name{
+	margin-top: 20px;
+	width: 390px;
+}
+
+h1{    
+	color: white;
+    text-align: center;
+}
+div{
+	font-size: 18px;
+	width: 480px;
+	margin-left: 180px;
+	float:left;
+	margin-top: 20px;
+}
+input{
+	width: 200px;
+	margin-top: 25px;
+}
+
+
+input[type=text],input[type=number],input[type=password]{
+	width: 80%;
+	height: 40px;
+}
+form select{
+	width: 70%;
+	height: 40px;
+}
+.reg_fecha{
+	width: 10%;
+}
+hr{
+	width: 70%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+input[type=submit]{
+	width: 30%;
+	height: 50px;
+	background-color:#394AAD ;
+	border: none ;
+	color:white;
+}
+input[type=reset]{
+	height: 50px;
+	width: 20%;
+	background-color: #222;
+	border: none ;
+	color:white;
+}
+section{
+	display: flex;
+	flex-wrap:flex;
+}
+/*Uso de media Querynns*/
+@media screen and (min-width: 700px) and (max-width: 1250px){
+
+form{
+	margin-left: 200px;
+	height: inherit;
+}
+
+input[type=radio]{
+	display: block;
+} 
+.reg_fecha{
+	display: block;
+	width: 40%;
+}
+input[type=submit],input[type=reset]{
+	margin-bottom: 20px;
+}
+}
+@media screen and (min-width: 260px) and (max-width: 699px){
+form{
+	margin-left: 100px;
+		margin-right: 100px;
+	width: 100%;
+	height: inherit;
+}
+
+input[type=radio]{
+	display: block;
+} 
+.reg_fecha{
+	display: block;
+	width: 40%;
+}
+input[type=submit],input[type=reset]{
+	display:block;
+}
+input[type=submit]{
+	width: 70%;
+}
+input[type=reset]{
+	width: 60%;
+	margin-bottom: 20px;
+}
+}

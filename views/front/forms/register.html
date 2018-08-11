@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="../../../public/css/register style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	
+<section>
+
+	<form> 
+			<center>
+			<h1>FORMULARIO DE REGISTRO</h1>
+		<p>
+			<input type="text" name="nombre_us" class="input_name" placeholder="Nombre Completo">
+		</p>
+		<hr>
+		<p>
+			<input type="radio"  value="Femenino" name="gender" class="opc" checked>Femenino
+		
+	
+			<input type="radio"  value="Masculino" name="gender" class="opc">Masculino
+		
+			<input type="radio"  value="Otro" name="gender" class="opc">Otro
+		</p>
+		<hr>
+		<p>
+			<select name="anio_nac" class="reg_fecha">
+				<option selected> Año</option>
+
+					<script>
+
+						var i;
+						for ( i = 2018; i>=1990; i-- ){
+								document.write("<option>" + i + "</option>");
+						}
+					</script>
+			</select>
+	
+		
+		
+       
+        	<select name="mes_nac" class="reg_fecha">
+				<option selected>Mes</option>
+
+					<script>
+
+						var i;
+						for ( i = 12; i>=1; i-- ){
+								document.write("<option>" + i + "</option>");
+						}
+					</script>
+			</select>
+		
+		
+		
+
+			<select name="dia_nac" class="reg_fecha">
+				<option selected>Día</option>
+
+					<script>
+
+						var i;
+						for ( i = 31; i>=1; i-- ){
+								document.write("<option>" + i + "</option>");
+						}
+					</script>
+			</select>
+		</p>
+<hr>
+<p>
+		<select>
+			<option>Tarjeta de identidad</option>
+			<option>Cedula de ciudadania</option>
+			<option>Cédula de extranjeria</option>
+			<option>Otro</option>
+			<option selected>Seleccionar Documento</option>
+
+		</select>
+	</p>
+		<p>
+			<input type="number" name="nu_documento" placeholder="Número de documento">
+		</p>
+<hr>
+		<p>
+			<input type="text" name="correo_us" class="input_name" placeholder="Correo electrónico">
+		</p>
+		<p>
+			<input type="password" name="password" placeholder="Contraseña">
+		</p>
+
+		<p>
+			<input type="password" name="conf_password" placeholder="Confirmar contraseña">
+		</p>
+<hr>
+		<p>
+			<input type="number" name="cel_us" placeholder="Celular">
+		</p>
+
+		<p>
+			<input type="number" name="tel_us" placeholder="Teléfono">
+		</p>
+<hr>
+		<p>
+			<select name="pais_us">
+				<option selected> país</option>
+			</select>
+		</p>
+
+		<p>
+			<select name="pais_us">
+				<option selected>Seleccione el país</option>
+			</select>
+		</p>
+
+		<p>
+			<select name="dep_us">
+				<option selected>Departamento</option>
+			</select>
+		</p>
+
+		<p>
+			<select name="ciudad_us">
+				<option selected>ciudad</option>
+			</select>
+		</p>
+
+		<p>
+			<select name="comuna_us">
+				<option selected>comuna</option>
+			</select>
+		</p>
+
+		<p>
+			<select name="barrio_us">
+				<option selected>barrio</option>
+			</select>
+		</p>
+
+		<p>
+			<select name="correg_us">
+				<option selected>corregimiento</option>
+			</select>
+		</p>
+
+		<p>
+			<select name="vereda_us">
+				<option selected>vereda</option>
+			</select>
+		</p>
+<hr>
+		<p>
+			<input type="text" name="direccion_us" class="input_name" placeholder="Dirección">
+		</p>
+		<hr>
+		<p>
+			<input type="submit" value="Registrarse" >
+			<input type="reset" value="Cancelar" >
+		</p>
+	</center>
+	</form>
+	
+</section>
+
+</body>
+</html>

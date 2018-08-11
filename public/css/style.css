@@ -1,0 +1,111 @@
+
+/* Uso de media Querynns */
+@media screen and (min-width: 900px) and (max-width: 1200px){
+form{
+	margin-left: 340px;
+}
+#form_reg{
+	width: 100%;
+	margin-left: 0.2px;
+}
+}
+@media screen and (min-width: 500px) and (max-width: 900px){
+form{
+	margin-left: 200px;
+	width: 60%; 
+	height: 760px;
+}
+hr{
+	width: 310px;
+	height: 0.5px;
+  	background-color: white;
+}
+h1{
+	font-size: 50px;
+	text-align: center;
+}
+.bots{
+    margin: 45px 2px;
+    font-size: 30px;
+}
+label{
+	font-size: 35px;
+}
+.input1{
+	margin-top: 50px;
+	padding-top: 5px;
+	width: 280px;
+}
+.botsrg{
+    margin-left: 0px;
+    margin-right: 60px;
+}
+#form_reg{
+	margin-top: 10px;
+}
+#form_contact{
+	font-size: 35px;
+    height: 950px;
+}
+.input_cont{
+	width:400px;
+	height: 50px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px){
+form{
+	margin: auto;
+	width: 52%;
+	height: 850px;
+}
+hr{
+	width: 350px;
+	height: 0.7px;
+  	background-color: white;
+}
+h1{
+	font-size: 70px;
+}
+label{
+	font-size: 45px;
+}
+.input1{
+	margin-top: 60px;
+	padding-top: 5px;
+	width: 295px;
+	height: 30px;
+}
+.bots{
+    margin: 58px 2px;
+    font-size: 35px;
+}
+#form_reg{
+	text-align: center;
+	width: 75%;
+	margin-left:190px;
+	margin-top: 30px;
+    height: 3315px;
+}
+.input_name{
+	height: 24px;
+	margin-top: 20px;
+	width: 480px;
+}
+.divreg{
+	margin-left: 1px;
+	width: 750px;
+	float:center;
+	margin-top: 20px;
+}
+.botsrg{
+    padding: 25px 31px;
+    margin-left: 80px;
+    font-size: 24px;
+}
+select{
+	padding: 12px 15px;
+	font-size: 31px;
+}
+.gen,.anio,.mes,.dia,.doc,.num_doc,.correo,.pass,.cel,.tel,.pais,.dept,.ciudad,.comuna,.barrio,.correg,.vereda,.direc{
+	padding: 10px 29px;
+}
